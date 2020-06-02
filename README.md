@@ -7,9 +7,6 @@ Generic.Api is a RESTful api that allows you to GET/PUT/POST Programming Languag
   - Generic Repositories 
   - Swagger (https://swagger.io/)
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 ## Installation
 
 This project is built with dotnet core 3.1 and dotnet standard (https://dotnet.microsoft.com/download/dotnet-core/3.1)
