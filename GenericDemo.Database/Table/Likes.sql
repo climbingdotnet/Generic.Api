@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Likes]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT newsequentialid(), 
+    [LanguageId] UNIQUEIDENTIFIER NOT NULL,
+    [Name] VARCHAR(50) NOT NULL, 
+    [Email] VARCHAR(100) NOT NULL
+)

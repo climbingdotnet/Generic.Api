@@ -1,0 +1,12 @@
+﻿namespace GenericDemo.Domain.Exceptions
+{
+    using System;
+
+    public class EntityNotFoundException : ApplicationException
+    {
+        public EntityNotFoundException(string message)
+            : base(message)
+        {
+        }
+    }
+}
