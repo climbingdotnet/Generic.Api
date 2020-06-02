@@ -1,5 +1,7 @@
 # Generic.Api
 
+![.NET Core](https://github.com/PwTa/Generic.Api/workflows/.NET%20Core/badge.svg)
+
 Generic.Api is a RESTful api that allows you to GET/PUT/POST Programming Language data. The main purpose of this API is to demonstrate how you can create a solid API that is quick and easy to develope via the use:
 
   - FluentValidation (https://fluentvalidation.net/)
