@@ -26,7 +26,7 @@
         {
             var entity = this.mapper.Map<TEntity>(dto);
 
-            var validationResult = await this.validator.ValidateAsync(entity);
+            var validationResult = await this.validator.ValidateAsync(entity, ruleSet: "default,create");
 
             this.ConsumeResult(validationResult);
 

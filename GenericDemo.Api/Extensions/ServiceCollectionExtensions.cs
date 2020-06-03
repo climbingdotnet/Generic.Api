@@ -33,9 +33,12 @@
                 options => options.UseSqlServer(configuration.GetConnectionString("GenericDemo")));
 
             services.AddRepository<Language>();
+            services.AddRepository<Like>();
 
             services.AddCreateService<Language, CreateLanguageDto>();
+            services.AddCreateService<Like, CreateLikeDto>();
             services.AddUpdateService<Language, UpdateLanguageDto>();
+            services.AddUpdateService<Like, UpdateLikeDto>();
 
             services.AddControllers();
         }
