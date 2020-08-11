@@ -37,7 +37,7 @@
         {
             if (!validationResult.IsValid)
             {
-                throw new EntityValidationException($"{nameof(TEntity)} failed validation", validationResult.Errors);
+                throw new EntityValidationException($"{typeof(TEntity).Name} failed validation", validationResult.Errors);
             }
         }
     }
